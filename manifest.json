@@ -1,0 +1,15 @@
+{
+    "name": "SaveAs For Edge",
+    "version": "0.1",
+    "author": "Hazzamanic",
+    "description": "Adds Save As... to the context menu, as you get in every other browser.",
+    "permissions": [
+        "contextMenus", "tabs", "activeTab", "background", "*://*/*", "document"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    }
+}
